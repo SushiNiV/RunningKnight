@@ -1,0 +1,58 @@
+:root {
+}
+
+.text-button {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 25px;
+    border-right-width: 25px;
+    border-bottom-width: 25px;
+    border-left-width: 25px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    background-color: rgb(255, 255, 255);
+}
+
+Button.text-button:hover {
+    transition-property: border-color, background-color;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-in-sine, ease-in-sine;
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+    border-left-color: rgb(201, 201, 201);
+    border-right-color: rgb(201, 201, 201);
+    border-top-color: rgb(201, 201, 201);
+    border-bottom-color: rgb(201, 201, 201);
+    border-top-width: 25px;
+    border-right-width: 25px;
+    border-bottom-width: 25px;
+    border-left-width: 25px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    background-color: rgb(200, 200, 200);
+}
+
+Button.text-button:active {
+    transition-property: border-color, background-color, -unity-background-image-tint-color;
+    transition-duration: 0.15s, 0.15s, 0.5s;
+    transition-timing-function: ease-in-sine, ease-in-sine, ease-in-sine;
+    border-left-color: rgb(200, 200, 200);
+    border-right-color: rgb(200, 200, 200);
+    border-top-color: rgb(200, 200, 200);
+    border-bottom-color: rgb(200, 200, 200);
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+    background-color: rgb(200, 200, 200);
+    border-top-width: 25px;
+    border-right-width: 25px;
+    border-bottom-width: 25px;
+    border-left-width: 25px;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}

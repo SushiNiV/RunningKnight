@@ -1,0 +1,40 @@
+:root {
+}
+
+.menu-button {
+}
+
+
+
+.menu-button:hover {
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+}
+
+.menu-button:active {
+    transition-property: -unity-background-image-tint-color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-sine;
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+}
+
+
+
+
+
+
+
+
+
+.text-button:active {
+    transition-property: border-color, background-color;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease-in-sine, ease-in-sine;
+    border-left-color: rgb(200, 200, 200);
+    border-right-color: rgb(200, 200, 200);
+    border-top-color: rgb(200, 200, 200);
+    border-bottom-color: rgb(200, 200, 200);
+    -unity-background-image-tint-color: rgb(200, 200, 200);
+}
