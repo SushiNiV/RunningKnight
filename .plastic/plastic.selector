@@ -1,4 +1,0 @@
-repository "VENDIOLA_SUSHANE_MOVE1/VENDIOLA_SUSHANE_MOVE1@18967055614274@cloud"
-  path "/"
-    br "/main"
-    co "/main"
